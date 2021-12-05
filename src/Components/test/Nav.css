@@ -1,0 +1,116 @@
+/* start navbar*/
+.navbar {
+    padding: 7px 2px;
+}
+input {
+    width: 100%;
+    padding: 4px;
+    border-color: none;
+    outline-style: none;
+    margin-top: 22px;
+    color: #131111;
+    border-radius: 9px;
+}
+.navbar-brand span:first-child {
+    font-size: 25px;
+    color: #002878;
+    margin-bottom: -9px;
+    margin-top: 16px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-nav .nav-link {
+    font-family: Sans-serif;
+    text-decoration: none;
+    color: #777 !important;
+    font-size: 17px;
+}
+.navbar-nav .nav-link:hover {
+    color: #00bcd4 d6 !important;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #00bcd4 d6 !important;
+}
+/* end navbar*/
+ul {
+    list-style: none;
+}
+.main__menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+.main__menu > li {
+    padding: 0 15px;
+    position: relative;
+}
+.main__menu > li a {
+    font-weight: 500;
+    display: block;
+    position: relative;
+    text-transform: capitalize;
+    font-family: Sans-serif;
+    text-decoration: none;
+    color: #777 !important;
+    font-size: 17px;
+}
+.main__menu > li a:hover {
+    color: #002878 !important;
+}
+.main__menu li.drop ul.dropdown {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    left: 0;
+    margin: 0;
+    opacity: 2;
+    padding: 0;
+    position: absolute;
+    top: 120%;
+    transition: all 0.1s ease-in-out 0s;
+    visibility: hidden;
+    width: 199px;
+    z-index: 999;
+}
+.main__menu > li:hover ul.dropdown {
+    visibility: visible;
+}
+.main__menu ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    position: relative;
+}
+.main__menu ul.dropdown li a {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 18px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.main__menu ul.dropdown li a:hover {
+    color: red;
+}
+.main__menu li a:hover {
+    color: red;
+}
+.icon {
+    margin-top: 4px;
+}
+.icon i {
+    background: #fff none repeat scroll 0 0;
+    color: #002878;
+    font-size: 22px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-top: 8px;
+    margin-left: 15px;
+}

@@ -1,0 +1,39 @@
+/* start overview*/
+.overview {
+  padding: 90px 0 90px;
+  background-color: #9289930d;
+  padding-bottom: 120px;
+}
+.overview h1 {
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #303030;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.overview p {
+  color: #666666;
+  font-size: 15px;
+  margin: 27px auto auto;
+  width: 70%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.overview h4 {
+  margin-bottom: 20px;
+  color: #af9f9f;
+  letter-spacing: 7px;
+}
+.overview button {
+  padding: 9px 50px;
+  background-color: #002878;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+}
+/* end overview*/
